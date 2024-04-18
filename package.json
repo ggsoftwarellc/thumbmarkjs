@@ -5,12 +5,6 @@
   "main": "./dist/thumbmark.cjs.js",
   "module": "./dist/thumbmark.esm.js",
   "types": "./dist/thumbmark.esm.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/thumbmark.esm.js",
-      "require": "./dist/thumbmark.cjs.js"
-    }
-  },
   "public": true,
   "files": [
     "dist"
